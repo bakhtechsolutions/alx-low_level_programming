@@ -3,9 +3,9 @@
 #include <limits.h>
 #include <float.h>
 /**
- *  * main- This is my main function
- *   * Return: It must be a value of 0
- *    */
+ * main- This is my main function
+ * Return: It must be a value of 0
+ */
 int main(void)
 {
 		char alx_char = 'A';
