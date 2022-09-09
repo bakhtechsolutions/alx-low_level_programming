@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - print possible combo of two 2-digit
  *
  * Return: returns zero ar the end
