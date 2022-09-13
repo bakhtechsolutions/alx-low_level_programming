@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * _islower - Retuns 1 if char is lowercase character
  * else, return 0
  *
