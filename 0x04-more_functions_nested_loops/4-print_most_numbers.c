@@ -2,19 +2,24 @@
 #include "main.h"
 
 /**
- *
- * print_most_numbers except two and four
- *
+ * print_most_numbers - does stuff
  */
 
 void print_most_numbers(void)
 {
-	char c;
+	int i = 0;
 
-	for (c = '0'; c <= '9'; c++)
+	while (i < 10)
 	{
-		if (c != '2' && c != '4')
-			_putchar(c);
+		if (i == 2 || i == 4)
+		{
+			i++;
+			continue;
+		}
+
+		_putchar(i + '0');
+
+		i++;
 	}
 
 	_putchar('\n');
