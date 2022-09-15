@@ -3,7 +3,8 @@
 
 /**
  *
- * print_most_numbers -  prints the numbers except 2&4
+ * print_most_numbers except two and four
+ *
  */
 
 void print_most_numbers(void)
